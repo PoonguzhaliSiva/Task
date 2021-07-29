@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forgot passowrd</title>
+        <link rel="stylesheet" type="text/css" href="text.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                background-color: pink;
+            }
+        </style>
+        <script>
+            function matchPassword(){
+                var pswd1=document.getElementById("pswd1");
+                var pswd2=document.getElementById("pswd2");
+                if(pswd1!=pswd2)
+                {
+                    alert("Passwords did not match");
+                }
+                else{
+                    alert("Password created succesfully");
+                }
+            }
+          </script>
+    </head>
+    <body>
+        <div class="box">
+            <div class="inner-box">
+                <form action="Login.html">
+                <h3>Enter Your Email Address</h3>
+                <input type="email" placeholder="Email Address" required/>
+                <input type="password" id="pswd1" placeholder="Password Enter Atleast 8 characters" required/>
+                <input type="password"  id="pswd2" placeholder=" Confirm Password" required/>
+                <button type="Submit" onclick="matchPassword()">Submit</button>/>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

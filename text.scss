@@ -1,0 +1,89 @@
+$bpadding:0px;
+$bmargin:0px;
+$textcolor:black;
+$textstyle:arial;
+$sizing:border-box;
+
+*{
+   padding:$bpadding;
+   margin:$bmargin;
+   color:$textcolor;
+   font-family: $textstyle;
+   box-sizing: $sizing;
+}
+$tdecoration:none;
+$fweight:600;
+
+a{
+    text-decoration: $tdecoration;
+    font-weight: $fweight;
+}
+$tcolor:orchid;
+
+.link{
+    color:$tcolor;
+}
+$tmargin:5px 0px;
+
+p{
+    margin:$tmargin;
+}
+
+$bbwidth:400px;
+$bbheight:auto;
+$bbmargin:0 auto;
+$bbmargintop:145px;
+$bgcolor:white;
+$bbopacity:0.7;
+
+.box{
+    width:$bbwidth;
+    height:$bbheight;
+    margin:$bbmargin;
+    margin-top: $bbmargintop;
+    background-color: $bgcolor;
+    opacity:$bbopacity;
+}
+$ibpadding:30px;
+
+.inner-box{
+    padding:$ibpadding;
+}
+
+$textalign:center;
+$hmargin:5px 0px;
+
+.box h1,h2,h3,h4,h5,h6{
+    text-align: $textalign;
+    margin:$hmargin;
+}
+
+$ffloat:right;
+
+.forgot{
+    float:$ffloat;
+}
+
+$pwidth:100%;
+$ppadding:10px 0px;
+$pmargin:5px 0px;
+$pborder:2px solid #c0c0c0;
+
+input[type="text"],input[type="password"],input[type="email"]{
+    width:$pwidth;
+    padding:$ppadding;
+    margin:$pmargin;
+    border:$pborder;
+}
+ 
+ $btcolor:orchid;
+ $btwidth:100%;
+ $btpadding:10px 0px;
+ $margin:5px 0px; 
+
+button[type="Submit"]:hover{
+    color:$btcolor;
+    width:$btwidth;
+    padding:$btpadding;
+    margin:$margin;
+}
